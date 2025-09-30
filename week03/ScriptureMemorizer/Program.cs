@@ -32,7 +32,6 @@ class Program
 
             // Hide a few words each step
             scripture.HideRandomWords(3);
-
             Console.Clear();
             Console.WriteLine("=== Scripture Memorizer (Week 03) ===");
             Console.WriteLine(scripture.GetDisplayText());
