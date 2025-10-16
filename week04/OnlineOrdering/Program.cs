@@ -6,6 +6,7 @@ class Program
         // ===== Order #1 (USA) =====
         var addr1 = new Address("123 Main St", "Rexburg", "ID", "USA");
         var cust1 = new Customer("Allison Rose", addr1);
+        
         var order1 = new Order(cust1);
 
         order1.AddProduct(new Product("USB-C Cable", "C001", 8.99, 2));
